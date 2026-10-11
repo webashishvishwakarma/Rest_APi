@@ -1,0 +1,10 @@
+node_modules
+client
+dist
+tests
+.git
+.env
+.env.*
+*.md
+Dockerfile
+.dockerignore
