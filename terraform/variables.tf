@@ -17,3 +17,13 @@ variable "public_key_path" {
   type    = string
   default = "~/.ssh/devops-key.pub"
 }
+
+variable "ci_instance_type" {
+  type    = string
+  default = "t3.large"
+}
+
+variable "app_instance_type" {
+  type    = string
+  default = "t3.small"
+}

@@ -17,3 +17,11 @@ output "ci_sg_id" {
 output "key_pair_name" {
   value = aws_key_pair.main.key_name
 }
+
+output "ci_public_ip" {
+  value = aws_instance.ci.public_ip
+}
+
+output "app_public_ip" {
+  value = aws_instance.app.public_ip
+}
